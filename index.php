@@ -48,7 +48,7 @@ add_action('init', 'ajaxcomments_load_js', 10);
 
 
 function ajaxcomments_load_js(){
-		wp_enqueue_script('ajaxcomments', plugins_url('silk_ajax_comments/ajaxcomments.js'), array(), false, true);
+		wp_enqueue_script('ajaxcomments', plugins_url('silk-ajax-comments/ajaxcomments.js'), array(), false, true);
 }
 
 function google_jquery() {
